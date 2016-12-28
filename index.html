@@ -39,9 +39,9 @@ function makeid()
 function checkCookie() {
     var user=getCookie("userid");
     if (user != "") {
-        alert("Welcome again.. " + "You are done with this survey...");
+        document.write("Welcome again.. " + "You are done with this survey...");
         document.write("Thanks");
-        window.location = "http://www.google.com";
+//         window.location = "http://www.google.com";
     } else {
        // user = prompt("Please enter your name:","");
        document.write("Welcome For the First Time.. " + "You are allowed to do this survey...");
