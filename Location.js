@@ -46,5 +46,5 @@ function displayLocation(latitude,longitude){
       };
 
       var loc = navigator.geolocation.getCurrentPosition(successCallback,errorCallback,options);
-        $('text').text(loc);
+        $('textarea').text(loc);
         });
