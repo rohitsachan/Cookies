@@ -1,3 +1,4 @@
+$(document).ready(function(){
 function displayLocation(latitude,longitude){
         var request = new XMLHttpRequest();
 
@@ -45,3 +46,4 @@ function displayLocation(latitude,longitude){
       };
 
       navigator.geolocation.getCurrentPosition(successCallback,errorCallback,options);
+        });
